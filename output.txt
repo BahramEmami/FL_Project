@@ -1,0 +1,69 @@
+1:
+# States
+S A
+
+# Alphabet
+a b
+
+# Start State
+S
+
+# Final States
+A
+
+# Transitions
+S a A
+S b S
+A a S
+A b A
+
+2:
+# States
+S A B C D
+
+# Alphabet
+a b
+
+# Start State
+S
+
+# Final States
+B D
+
+# Transitions
+S a A
+S b C
+A a A
+A b B
+B a A
+B b B
+C a D
+C b C
+D a D
+D b C
+
+3:
+# States
+S A B C D
+
+# Alphabet
+a b
+
+# Start State
+S
+
+# Final States
+C
+
+# Transitions
+S a A
+S b D
+A a C
+A b A
+B a D
+B b B
+C a A
+C b C
+D a B
+D b D
+
